@@ -1,0 +1,42 @@
+#######################Part1###########################
+Start time: 16:11:56 on Sep 28,2023
+vlog part1.sv 
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mux
+-- Compiling module mux2to1
+
+Top level modules:
+	mux
+End time: 16:11:56 on Sep 28,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 10.6d
+
+# vsim -c -do "/cad2/ece253f/public/1/test/run.do" work.part1_tb 
+# Start time: 16:11:57 on Sep 28,2023
+# Loading sv_std.std
+# Loading work.part1_tb
+# Loading work.mux
+# Loading work.mux2to1
+# do /cad2/ece253f/public/1/test/run.do
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# Check mux
+# input = 0000000000 output = xxxxxxxxx0 golden_output = 0000 PASSED
+# input = 0000000001 output = xxxxxxxxx1 golden_output = 0001 PASSED
+# input = 1000000000 output = xxxxxxxxx0 golden_output = 0000 PASSED
+# input = 1000000010 output = xxxxxxxxx1 golden_output = 0001 PASSED
+# End time: 16:11:57 on Sep 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+######################SUMMARY of part1##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 4
+Number of FAILED: 0
+part1 is done!

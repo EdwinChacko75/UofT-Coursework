@@ -1,0 +1,6 @@
+Make sure you are running in the correct directory, and that your files are named partX.sv where X is the part number.
+DONE!
+#######################Mark of part1##########################
+MARK: 0
+#######################TOTAL_MARK##########################
+TOTAL_MARK: 0
